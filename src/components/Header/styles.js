@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import { Animated } from 'react-native';
 
 export const Container = styled.View`
   align-items: center;
@@ -11,7 +12,7 @@ export const Top = styled.View`
   margin-bottom: 10px;
 `;
 
-export const Logo = styled.Image``;
+export const Logo = styled(Animated.Image)``;
 
 export const Title = styled.Text`
   font-size: 18px;
