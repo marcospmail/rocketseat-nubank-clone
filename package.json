@@ -10,7 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
-    "axios": "^1.6.0",
+    "axios": "^1.7.4",
     "prop-types": "^15.7.2",
     "react": "16.9.0",
     "react-native": "0.62.3",
